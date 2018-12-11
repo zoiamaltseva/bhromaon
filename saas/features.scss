@@ -1,0 +1,21 @@
+.feature--bg {
+  height: 337px;
+  background-color: $black;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0 86px;
+}
+.feature-item__title {
+  color: $white;
+  font-family: $font-aleo;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+}

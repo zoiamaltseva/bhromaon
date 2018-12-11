@@ -1,0 +1,41 @@
+
+.footer {
+  height: 268px;
+  width: 100%;
+  background-color: $black;
+  font-family: $font-josefina;
+}
+.footer__bg {
+  height: 268px;
+  width: 100%;
+  background-color: $black;
+}
+.footer__title {
+  color: $white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 122px 20px 0 20px;
+  letter-spacing: 2px;
+}
+.footer__subtitle {
+  color: $white;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 20px 26px 20px;
+}
+.icons {
+  color: $white;
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.icons__item {
+  &:hover {
+    color: $blue;
+    cursor: pointer;
+  }
+  padding: 0 10px;
+}

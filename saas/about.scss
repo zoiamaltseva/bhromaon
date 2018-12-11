@@ -1,0 +1,72 @@
+.about {
+  background-image: url("../img/img-choose-us.png");
+  width: 100%;
+  height: 685px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.about__wrap {
+  width: 100%;
+  max-width: 1114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.about-left__title {
+  color: $white;
+  font-family: $font-aleo;
+  font-weight: normal;
+  font-size: 36px;
+}
+.about-left__text {
+  max-width: 530px;
+  color: $light-gray;
+  font-family: $font-josefina;
+  font-size: 16px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  line-height: 26px;
+}
+.about-left__button {
+  color: $white;
+  font-family: $font-aleo;
+  font-size: 16px;
+  background-color: $blue;
+  padding: 20px 39px;
+  border: none;
+  text-transform: uppercase;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  &:hover {
+    background-color: $dark-blue;
+    cursor: pointer;
+  }
+}
+.about-right__img--top {
+  background-image: url("../img/river.png");
+  width: 350px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  right: 127px;
+}
+.about-right__img--bottom {
+  background-image: url("../img/mountain.png");
+  width: 350px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+}
+.about-left {
+  position: relative;
+  top: 32px;
+}
